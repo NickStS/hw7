@@ -8,7 +8,7 @@ from normalize import normalize
 def handle_media(filename: Path, target_folder: Path) -> None:
     target_folder.mkdir(exist_ok=True, parents=True)
     filename.replace(target_folder / normalize(filename.name))
-    
+
 
 def handle_arhive(filename: Path, target_folder: Path) -> None:
     target_folder.mkdir(exist_ok=True, parents=True)

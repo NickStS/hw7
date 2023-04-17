@@ -7,10 +7,10 @@ setup(
     packages=find_packages(),
     install_requires=[
         'pathlib',
-        ],
+    ],
     entry_points={
         'console_scripts': [
-            'clean-folder=main:main',
+            'clean_folder=clean:main',
         ],
     },
 )
